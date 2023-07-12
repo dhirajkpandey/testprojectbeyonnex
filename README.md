@@ -5,7 +5,7 @@
 * I have used extentreports library for reporting.
 * Following are the steps for running tests using docker:
 
-step 1. Go to root directory and execute to create image for tests
+step 1. Please go to root directory after cloning or downloading the project and execute following step to create docker image for tests
 
     docker build -t beyonnextestimage .
 
