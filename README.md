@@ -29,16 +29,18 @@ Step 4.(optional) Execution of tests inside container can be seen in following w
 Step 4. To run the tests
 
     docker run -d --network="host" beyonnextestimage mvn -f /home/beyonnex/pom.xml clean test
+    
 
-    above command will generate an image
+above command will generate an image
 
 Step 5. To see the logs
 
     docker logs <generated image in the above command>
 
 
-To run locally
-Step 1. we need to make following changes in setUp() method inside BaseTest.java class
+To run locally:
+
+Step 1. We need to make following changes in setUp() method inside BaseTest.java class
 
     Inside try block, please comment  this line "driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);"
 
