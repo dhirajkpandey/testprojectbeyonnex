@@ -51,6 +51,7 @@ Step 1. We need to make following changes in setUp() method inside BaseTest.java
 
 
 Step 2. To run test
+
         project root directory>mvn test
 
 It can also be run by simply right-clicking on testng.xml and Run As testng.xml in intellij idea or eclipse(for this testng plugin needs to be 
