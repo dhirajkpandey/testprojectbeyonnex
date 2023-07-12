@@ -1,7 +1,7 @@
 
 ### Solution
 
-* It is a Maven project, Java was used as language and testing library for tests.
+* It is a Maven project, Java was used as language and testng library for tests.
 * I have used extentreports library for reporting.
 * Following are the steps for running tests using docker:
 
